@@ -91,6 +91,14 @@
   border: #111 solid;
 }
 
+.form {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+  border: black solid 5px;
+  background: url(../imagenes/white-candles-pebbles-stone-wood.jpg) no-repeat center;
+}
+
 .footer {
   padding: 40px 0;
   background-color: #fff;
@@ -150,5 +158,80 @@ footer .copyright {
   text-align: center;
   font-size: 13px;
   color: #aaa;
+}
+
+/* condicionales */
+h1 {
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+/* mixin */
+.box {
+  text-align: center;
+  height: auto;
+  width: auto;
+  background: #aafcaa;
+  border: 600px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #e0d4d4;
+}
+
+/* mapget */
+.articulo {
+  background-color: #abc7f7;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px;
+}
+
+/* bucle */
+h6 {
+  font-size: 72px;
+}
+
+h5 {
+  font-size: 60px;
+}
+
+h4 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* each */
+.bg-green {
+  background-color: green;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-violet {
+  background-color: violet;
 }
 /*# sourceMappingURL=style.css.map */
